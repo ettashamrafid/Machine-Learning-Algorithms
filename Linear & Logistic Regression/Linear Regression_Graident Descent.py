@@ -43,7 +43,3 @@ def gradient_descent(x,y,learning_rate=0.1):
     return w,b
 
 
-x=np.array([1,2,3,4,5])
-y=np.array([5,7,9,11,13])
-#print(compute_cost(x,y))
-print(gradient_descent(x,y))

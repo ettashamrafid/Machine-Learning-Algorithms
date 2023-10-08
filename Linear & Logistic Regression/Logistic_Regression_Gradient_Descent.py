@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 def sigmoid(value):
-    sig_value=1/(1+math.exp(-value))
+    sig_value=1/(1+np.exp(-value))
     return sig_value
 
 def compute_cost(x,y,reg_lambda=0.1):
